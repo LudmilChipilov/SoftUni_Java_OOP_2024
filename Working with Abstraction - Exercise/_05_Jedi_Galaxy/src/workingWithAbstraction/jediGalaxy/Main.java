@@ -7,9 +7,9 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        int[] dimesions = Arrays.stream(scanner.nextLine().split(" ")).mapToInt(Integer::parseInt).toArray();
-        int x = dimesions[0];
-        int y = dimesions[1];
+        int[] dimensions = Arrays.stream(scanner.nextLine().split(" ")).mapToInt(Integer::parseInt).toArray();
+        int x = dimensions[0];
+        int y = dimensions[1];
 
         int[][] matrix = new int[x][y];
 
