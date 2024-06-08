@@ -10,9 +10,10 @@ public class Main
 {
     public static void main(String[] args)
     {
-        // Get all methods
+        // Get all fields
         Field[] fields = Reflection.class.getDeclaredFields();
         Arrays.sort(fields, Comparator.comparing(Field::getName));  // sort fields alphabetically by name
+        // Get all methods
         Method[] methods = Reflection.class.getDeclaredMethods();
         Arrays.sort(methods, Comparator.comparing(Method::getName));  // sort methods alphabetically by name
         // Check field access modifiers
