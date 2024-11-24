@@ -79,7 +79,7 @@ public class DivingTests
     @Test
     public void test_Diving_setCapacity_Should_Throws_Exception_If_Capacity_Negative()
     {
-        diving = new Diving("Vetren", 3);
+        
 
         assertThrows(IllegalArgumentException.class,
                 () -> new Diving("Vetren", -1),
@@ -90,7 +90,7 @@ public class DivingTests
     @Test
     public void test_Diving_setName_Should_Throws_Exception_If_Name_Null()
     {
-        diving = new Diving("Vetren", 3);
+        
 
         assertThrows(NullPointerException.class,
                 () -> new Diving(null, 10),
@@ -101,7 +101,7 @@ public class DivingTests
     @Test
     public void test_Diving_setName_Should_Throws_Exception_If_Name_Empty()
     {
-        diving = new Diving("Vetren", 3);
+    
 
         assertThrows(NullPointerException.class,
                 () -> new Diving("  ", 10),
