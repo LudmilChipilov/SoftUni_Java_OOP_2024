@@ -108,7 +108,7 @@ public class ExcavationTests
     @Test
     public void test_Excavation_setName_Should_Throws_Exception_If_Name_Whitespace()
     {
-        //excavation = new Excavation("Vetren", -1);
+        
 
         assertThrows(NullPointerException.class,
                 () -> new Excavation("  ", 10),
