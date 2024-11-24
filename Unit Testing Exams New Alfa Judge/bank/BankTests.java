@@ -75,7 +75,7 @@ public class BankTests
      }
 
      @Test
-     public void test_Bank_removeClient_Should_Throws_Exception_If_Capacity_Full()
+     public void test_Bank_removeClient_Should_Throws_Exception_If_Client_Does_Not_Exist()
      {
           bank = new Bank("DSK", 10);
           Client client1 = new Client("N1");
