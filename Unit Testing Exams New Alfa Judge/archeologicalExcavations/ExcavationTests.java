@@ -86,7 +86,7 @@ public class ExcavationTests
     @Test
     public void test_Excavation_setCapacity_Should_Throws_Exception_If_Capacity_Negative()
     {
-        //excavation = new Excavation("Vetren", -1);
+        
 
         assertThrows(IllegalArgumentException.class,
                 () -> new Excavation("Vetren", -1),
@@ -97,7 +97,7 @@ public class ExcavationTests
     @Test
     public void test_Excavation_setName_Should_Throws_Exception_If_Name_Null()
     {
-        //excavation = new Excavation("Vetren", -1);
+        
 
         assertThrows(NullPointerException.class,
                 () -> new Excavation(null, 10),
