@@ -75,7 +75,7 @@ public class BankTests
 
     }
     @Test
-    public void test_Bank_removeClient_Should_Increase_Count()
+    public void test_Bank_removeClient_Should_Decrease_Count()
     {
         bank = new Bank("DSK", 10);
         Client client1 = new Client("C1");
