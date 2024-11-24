@@ -73,7 +73,7 @@ public class CarShopTests
         Assertions.assertTrue(carShop.remove(car1));
     }
     @Test
-    public void test_CarShop_getTheMostLuxuryCar()
+    public void test_CarShop_getTheMostLuxuryCar_Should_Return_The_Most_Luxury_Car()
     {
         carShop = new CarShop();
         Car car1 = new Car("M1", 100, 1000.00);
