@@ -132,7 +132,7 @@ public class TeamTests
     }
 
     @Test
-    public void test_Team_getStatistics_Should_SetActive_To_False()
+    public void test_Team_getStatistics_Should_Return_Correct_String()
     {
         team = new Team("Botev", 10);
 
