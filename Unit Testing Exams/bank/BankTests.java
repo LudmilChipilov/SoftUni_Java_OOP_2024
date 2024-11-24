@@ -57,7 +57,7 @@ public class BankTests
 
     }
     @Test(expected = IllegalArgumentException.class)
-    public void test_Bank_removeClient_Should_Throws_Exception_If_Full_Capacity()
+    public void test_Bank_removeClient_Should_Throws_Exception_If_Client_Does_Not_Exist()
     {
         bank = new Bank("DSK", 10);
         Client client1 = new Client("C1");
