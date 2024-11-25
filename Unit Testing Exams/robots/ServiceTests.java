@@ -77,7 +77,7 @@ public class ServiceTests
 
     }
     @Test
-    public void test_Service_remove_Should_Increase_Count()
+    public void test_Service_remove_Should_Decrease_Count()
     {
         service = new Service("Vetren", 10);
         Robot robot1 = new Robot("N1");
