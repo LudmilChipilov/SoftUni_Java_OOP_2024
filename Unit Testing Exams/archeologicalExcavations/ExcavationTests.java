@@ -92,7 +92,7 @@ public class ExcavationTests
         Assert.assertTrue(excavation.removeArchaeologist("N5"));
     }
     @Test
-    public void test_Excavation_removeArchaeologist_Should_Return_False_If_Removal_Does_Not_Successful()
+    public void test_Excavation_removeArchaeologist_Should_Return_False_If_Removal_Is_Not_Successful()
     {
         excavation = new Excavation("Vetren", 10);
         Archaeologist archaeologist1 = new Archaeologist("N1", 1);
