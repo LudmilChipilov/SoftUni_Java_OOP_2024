@@ -69,7 +69,7 @@ public class PetStoreTests {
         Assertions.assertEquals(animal4, petStore.getTheMostExpensiveAnimal());
     }
     @Test
-    public void test_PetStore_findAllAnimalBySpecie_Should_Return_All_Animals_By_Given_Species()
+    public void test_PetStore_findAllAnimalBySpecie_Should_Return_All_Animals_By_Given_Specie()
     {
         petStore = new PetStore();
         Animal animal1 = new Animal("S1", 10, 50.50);
